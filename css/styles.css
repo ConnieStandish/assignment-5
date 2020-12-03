@@ -14,7 +14,7 @@ Universal Styling
   max-width: 500px;
   border-radius: 4px;
   font-family: sans-serif;
-  margin: 20 auto;
+  margin: 0 auto;
   text-align: left;
 }
 
@@ -28,4 +28,13 @@ Buttons Styling
 .submit,
 .reset {
   display: inline;
+}
+
+.submit input,
+.reset input {
+  background: #c000ff;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
 }
