@@ -1,0 +1,23 @@
+/*========================
+Universal Styling
+=========================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.contactform {
+  background: lightpink;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  margin: 20 auto;
+  text-align: left;
+}
+
+.label_input_wrap {
+  display: block;
+}
