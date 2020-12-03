@@ -21,3 +21,11 @@ Universal Styling
 .label_input_wrap {
   display: block;
 }
+
+/*========================
+Buttons Styling
+=========================*/
+.submit,
+.reset {
+  display: inline;
+}

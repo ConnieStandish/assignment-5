@@ -8,6 +8,7 @@
   </head>
 
   <body>
+  <!--- Contact  Form --->
     <form class="contactform" method="POST" action="">
       <div class="first-name">
         <label for="firstname" class="label_input_wrap"> First Name:</label>
@@ -21,10 +22,17 @@
         <label for="email" class="label_input_wrap"> Email:</label>
         <input type="email" name="email" id="email" placeholder="jdoe@example.com"/>
       </div>
-        <div class="comments">
-          <label for="comments" class="label_input_wrap"> Comments:</label>
-          <textarea name="comments" id="comments" rows="5" cols="55" placeholder="Questions or comments? Leave a message!"></textarea>
-        </div>
+      <div class="comments">
+        <label for="comments" class="label_input_wrap"> Comments:</label>
+        <textarea name="comments" id="comments" rows="5" cols="55" placeholder="Questions or comments? Leave a message!"></textarea>
+      </div>
+  <!--- Submit & Refresh Buttons --->
+      <div class="submit">
+        <input type="submit" value="Send" />
+      </div>
+      <div class="reset">
+        <input type="reset" value="Start Over" />
+      </div>
     </form>
   </body>
 </html>
