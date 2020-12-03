@@ -1,7 +1,6 @@
 /*========================
 Universal Styling
 =========================*/
-
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,7 @@ Universal Styling
 }
 
 .contactform {
-  background: lightpink;
+  background: #d9b6ff;
   padding: 20px;
   max-width: 500px;
   border-radius: 4px;
@@ -33,8 +32,39 @@ Buttons Styling
 .submit input,
 .reset input {
   background: #c000ff;
-  padding: 5px 10px;
+  padding: 5px 20px;
   color: white;
   font-weight: bold;
   border-radius: 10px;
+  margin-right: 12px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/*========================
+Input Section Styling
+=========================*/
+.input-section {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 7px 12px;
+  border-radius: 6px;
+}
+
+textarea {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-radius: 6px;
+}
+
+/*========================
+Labels Styling
+=========================*/
+label {
+  font-weight: bold;
+  margin-bottom: 7px;
+  color: #4a0588bf;
 }
