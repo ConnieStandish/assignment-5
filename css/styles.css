@@ -21,22 +21,38 @@ Universal Styling
   display: block;
 }
 
+body {
+  background-image: url('../images/pawprint-small.png');
+}
 
+main {
+    background: white;
+    max-width: 1817px;
+    margin: 0 auto;
+    height: 677px;
+}
 /*========================
 Header Styling
 =========================*/
+header {
+    background: white;
+    max-width: 1817px;
+    margin: 0 auto;
+    padding-bottom: 6px;
+}
 .container {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 45px;
-    margin-top: 30px;
+    margin-top: 46px;
 }
 
 .container h1 {
   font-size: 45px;
   font-family: sans-serif;
   color: #9009e4;
+  padding-top: 15px;
 }
 
 .container h2 {
