@@ -21,6 +21,7 @@ Universal Styling
   display: block;
 }
 
+
 /*========================
 Header Styling
 =========================*/
@@ -33,22 +34,42 @@ Header Styling
 }
 
 .container h1 {
-    font-size: 45px;
-    font-family: sans-serif;
-    color: #9009e4;
+  font-size: 45px;
+  font-family: sans-serif;
+  color: #9009e4;
 }
 
+.container h2 {
+  font-family: sans-serif;
+  color: #a56de2;
+  font-size: 36px;
+}
 
+.container::first-line  {
+  line-height: 70px;
+}
+
+.container h1:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f1b0 ";
+  font-size: 38px;
+}
+
+.container h1:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f1b0";
+  font-size: 38px;
+}
 
 /*========================
-Footer Styling
+Social Media Styling
 =========================*/
 .socialmedia {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 385px;
-    font-size: 25px;
+    margin-top: 24px;
+    font-size: 27px;
 }
 
 .socialmedia a {
