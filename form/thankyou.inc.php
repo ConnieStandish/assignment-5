@@ -12,10 +12,6 @@ body {
   background-image: url('images/pawprint-small.png');
 }
 
-header.thankyou h1 {
-    padding-top: 30px;
-}
-
 .thankyou {
   background: white;
   max-width: 1817px;
@@ -71,14 +67,17 @@ main.thankyou {
   font-size: 38px;
 }
 
+.container a {
+    text-decoration: none;
+}
 </style>
 
 <body>
   <header class="thankyou">
-    <div class="container">
-      <h1>Pet Palace Rescue Center</h1>
-      <h2>Contact Us</h2>
-    </div>
+      <div class="container">
+        <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
+        <h2>Contact Us</h2>
+      </div>
   </header>
 
 <main class="thankyou">

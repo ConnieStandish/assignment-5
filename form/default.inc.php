@@ -12,13 +12,24 @@ body {
   background-image: url('images/pawprint-small.png');
 }
 
+.thankyou {
+  background: white;
+  max-width: 1817px;
+  margin: 0 auto;
+  padding-bottom: 6px;
+}
+
 main {
     background: white;
     max-width: 1817px;
     margin: 0 auto;
     height: 677px;
-
 }
+
+main.thankyou {
+    padding: 1px;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -55,14 +66,20 @@ main {
   content: "\f1b0";
   font-size: 38px;
 }
+
+.container a {
+    text-decoration: none;
+}
 </style>
 
-<header class="thankyou">
-  <div class="container">
-    <h1>Pet Palace Rescue Center</h1>
-    <h2>Contact Us</h2>
-  </div>
-</header>
+<body>
+  <header class="thankyou">
+      <div class="container">
+        <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
+        <h2>Contact Us</h2>
+      </div>
+  </header>
+</body>
 
 <div class="container">
   <h1>Sorry Something Went Wrong</h1>

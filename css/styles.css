@@ -184,7 +184,8 @@ Image Styling
     right: 8%;
 }
 
-.dog-group-1 img, .dog-group-2 img {
+.dog-group-1 img,
+.dog-group-2 img {
     display: block;
     padding: 27px 0 30px 0;
 }
