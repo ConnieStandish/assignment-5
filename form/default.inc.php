@@ -59,8 +59,8 @@ header {
   content: "\f1b0";
   font-size: 38px;
 }
-
 </style>
+
 <header>
   <div class="container">
     <h1>Pet Palace Rescue Center</h1>
