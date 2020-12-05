@@ -1,3 +1,6 @@
+<!--- Font Awesome --->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
 <style type="text/css">
 * {
   margin: 0;
@@ -6,7 +9,18 @@
 }
 
 body {
-  background-image: url('../images/pawprint-small.png');
+  background-image: url('images/pawprint-small.png');
+}
+
+header.thankyou h1 {
+    padding-top: 30px;
+}
+
+.thankyou {
+  background: white;
+  max-width: 1817px;
+  margin: 0 auto;
+  padding-bottom: 6px;
 }
 
 main {
@@ -14,15 +28,12 @@ main {
     max-width: 1817px;
     margin: 0 auto;
     height: 677px;
-
-header {
-    background: white;
-    max-width: 1817px;
-    margin: 0 auto;
-    padding-bottom: 6px;
 }
 
+main.thankyou {
+    padding: 1px;
 }
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -59,16 +70,22 @@ header {
   content: "\f1b0";
   font-size: 38px;
 }
+
 </style>
 
-<header>
-  <div class="container">
-    <h1>Pet Palace Rescue Center</h1>
-    <h2>Contact Us</h2>
-  </div>
-</header>
+<body>
+  <header class="thankyou">
+    <div class="container">
+      <h1>Pet Palace Rescue Center</h1>
+      <h2>Contact Us</h2>
+    </div>
+  </header>
 
-<div class="container">
-  <h1>Thank you for your enquiry</h1>
-  <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
-</div>
+<main class="thankyou">
+  <div class="container">
+    <h1>Thank you for your enquiry</h1>
+    <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
+  </div>
+</main>
+
+</body>
