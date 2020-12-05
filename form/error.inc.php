@@ -12,7 +12,7 @@ body {
   background-image: url('images/pawprint-small.png');
 }
 
-.thankyou {
+.error {
   background: white;
   max-width: 1817px;
   margin: 0 auto;
@@ -26,7 +26,7 @@ main {
     height: 677px;
 }
 
-main.thankyou {
+main.error {
     padding: 1px;
 }
 
@@ -73,17 +73,19 @@ main.thankyou {
 </style>
 
 <body>
-  <header class="thankyou">
+  <header class="error">
       <div class="container">
         <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
         <h2>Contact Us</h2>
       </div>
   </header>
 
-<div class="container">
+<main class="error">
+  <div class="container">
 	<h1>Missing fields</h1>
 	<p>Sorry, you have not completed all of the required fields.</p>
 	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
+</main>
 </body>
 
 	<ul>

@@ -12,7 +12,7 @@ body {
   background-image: url('images/pawprint-small.png');
 }
 
-.thankyou {
+.went-wrong {
   background: white;
   max-width: 1817px;
   margin: 0 auto;
@@ -26,7 +26,7 @@ main {
     height: 677px;
 }
 
-main.thankyou {
+main.went-wrong {
     padding: 1px;
 }
 
@@ -73,15 +73,18 @@ main.thankyou {
 </style>
 
 <body>
-  <header class="thankyou">
+
+  <header class="went-wrong">
       <div class="container">
         <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
         <h2>Contact Us</h2>
       </div>
   </header>
-</body>
+<main>
+  <div class="went-wrong">
+    <h1>Sorry Something Went Wrong</h1>
+    <p>Please try again</p>
+  </div>
+</main>
 
-<div class="container">
-  <h1>Sorry Something Went Wrong</h1>
-  <p>Please try again</p>
-</div>
+</body>

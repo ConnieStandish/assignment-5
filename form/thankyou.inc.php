@@ -74,11 +74,12 @@ main.thankyou {
 
 <body>
   <header class="thankyou">
+    <header>
       <div class="container">
         <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
         <h2>Contact Us</h2>
       </div>
-  </header>
+    </header>
 
 <main class="thankyou">
   <div class="container">
