@@ -20,22 +20,22 @@ body {
 }
 
 main {
-    background: white;
-    max-width: 1817px;
-    margin: 0 auto;
-    height: 677px;
+  background: white;
+  max-width: 1817px;
+  margin: 0 auto;
+  height: 677px;
 }
 
 main.thankyou {
-    padding: 1px;
+  padding: 1px;
 }
 
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 45px;
-    margin-top: 46px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 46px;
 }
 
 .container h1 {
@@ -68,24 +68,23 @@ main.thankyou {
 }
 
 .container a {
-    text-decoration: none;
+  text-decoration: none;
 }
 </style>
 
 <body>
   <header class="thankyou">
-    <header>
-      <div class="container">
-        <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
-        <h2>Contact Us</h2>
-      </div>
-    </header>
+    <div class="container">
+      <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
+      <h2>Contact Us</h2>
+    </div>
+  </header>
 
-<main class="thankyou">
-  <div class="container">
-    <h1>Thank you for your enquiry</h1>
-    <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
-  </div>
-</main>
+  <main class="thankyou">
+    <div class="container">
+      <h1>Thank you for your enquiry</h1>
+      <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
+    </div>
+  </main>
 
 </body>

@@ -26,31 +26,31 @@ body {
 }
 
 main {
-    background: white;
-    max-width: 1817px;
-    margin: 0 auto;
-    height: 677px;
+  background: white;
+  max-width: 1817px;
+  margin: 0 auto;
+  height: 677px;
 }
 
 img {
-    width: 260px;
-    border-radius: 60px;
+  width: 260px;
+  border-radius: 60px;
 }
 /*========================
 Header Styling
 =========================*/
 header {
-    background: white;
-    max-width: 1817px;
-    margin: 0 auto;
-    padding-bottom: 6px;
+  background: white;
+  max-width: 1817px;
+  margin: 0 auto;
+  padding-bottom: 6px;
 }
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 45px;
-    margin-top: 46px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 46px;
 }
 
 .container h1 {
@@ -83,27 +83,27 @@ header {
 }
 
 .container a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*========================
 Social Media Styling
 =========================*/
 .socialmedia {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 24px;
-    font-size: 27px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 24px;
+  font-size: 27px;
 }
 
 .socialmedia a {
-    color: black;
-    margin-right: 12px;
+  color: black;
+  margin-right: 12px;
 }
 
 .socialmedia a:visited {
-    color: #002780;
+  color: #002780;
 }
 
 /*========================
@@ -128,13 +128,13 @@ Buttons Styling
 }
 
 .submit input:hover {
-    background: #c000ff5c;
-    transition: .2s;
+  background: #c000ff5c;
+  transition: .2s;
 }
 
 .reset input:hover {
-    background: #c000ff5c;
-    transition: .2s;
+  background: #c000ff5c;
+  transition: .2s;
 }
 
 /*========================
@@ -170,22 +170,22 @@ Image Styling
 =========================*/
 .dog-group-1,
 .dog-group-2 {
-    position: absolute;
-    top: 22%;
+  position: absolute;
+  top: 22%;
 }
 
 .dog-group-1 {
-    max-width: 500px;
-    left: 8%;
+  max-width: 500px;
+  left: 8%;
 }
 
 .dog-group-2 {
-    max-width: 500px;
-    right: 8%;
+  max-width: 500px;
+  right: 8%;
 }
 
 .dog-group-1 img,
 .dog-group-2 img {
-    display: block;
-    padding: 27px 0 30px 0;
+  display: block;
+  padding: 27px 0 30px 0;
 }

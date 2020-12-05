@@ -20,22 +20,22 @@ body {
 }
 
 main {
-    background: white;
-    max-width: 1817px;
-    margin: 0 auto;
-    height: 677px;
+  background: white;
+  max-width: 1817px;
+  margin: 0 auto;
+  height: 677px;
 }
 
 main.error {
-    padding: 1px;
+  padding: 1px;
 }
 
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 45px;
-    margin-top: 46px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 46px;
 }
 
 .container h1 {
@@ -68,24 +68,24 @@ main.error {
 }
 
 .container a {
-    text-decoration: none;
+  text-decoration: none;
 }
 </style>
 
 <body>
   <header class="error">
-      <div class="container">
-        <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
-        <h2>Contact Us</h2>
-      </div>
+    <div class="container">
+      <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
+      <h2>Contact Us</h2>
+    </div>
   </header>
 
-<main class="error">
-  <div class="container">
-	<h1>Missing fields</h1>
-	<p>Sorry, you have not completed all of the required fields.</p>
-	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
-</main>
+  <main class="error">
+    <div class="container">
+    	<h1>Missing fields</h1>
+    	<p>Sorry, you have not completed all of the required fields.</p>
+    	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
+  </main>
 </body>
 
 	<ul>

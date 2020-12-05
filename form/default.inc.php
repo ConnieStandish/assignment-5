@@ -75,16 +75,16 @@ main.went-wrong {
 <body>
 
   <header class="went-wrong">
-      <div class="container">
-        <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
-        <h2>Contact Us</h2>
-      </div>
+    <div class="container">
+      <a href="index.html"><h1>Pet Palace Rescue Center</h1></a>
+      <h2>Contact Us</h2>
+    </div>
   </header>
-<main>
-  <div class="went-wrong">
-    <h1>Sorry Something Went Wrong</h1>
-    <p>Please try again</p>
-  </div>
-</main>
+  <main>
+    <div class="went-wrong">
+      <h1>Sorry Something Went Wrong</h1>
+      <p>Please try again</p>
+    </div>
+  </main>
 
 </body>
